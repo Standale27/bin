@@ -1,0 +1,7 @@
+#!/bin/bash
+CUR_JAVA=/home/sahil/documents/projects/java/$(date '+%Y%m%d')
+LATEST=/home/sahil/latest-java
+
+mkdir $CUR_JAVA 
+rm $LATEST
+ln -s $CUR_JAVA $LATEST
