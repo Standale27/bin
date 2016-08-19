@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# random integer between 1 and passed arg
+echo $((( RANDOM % $@) + 1))
